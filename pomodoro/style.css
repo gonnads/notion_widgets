@@ -17,8 +17,8 @@ button,
 button:active {
   background-color: rgb(121, 145, 141);
   border: none;
-  width: 42px;
-  height: 40px;
+  width: 32px;
+  height: 30px;
   border-radius: 100%;
   text-align: center;
   box-shadow: 0.2em 0.2em rgb(62 75 73);
@@ -37,19 +37,19 @@ button:focus {
 
 .clock-container {
   background-color: rgb(221 235 218); 
-  width: 350px;
+  width: 300px;
   border-radius: 20px;
-  padding: 30px;
+  padding: 20px;
   /*box-shadow: 10px 10px sienna;*/
 }
 
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   background-color: rgb(237, 243, 236);
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
   box-shadow: 3px 3px rgb(121, 145, 141) inset;
 }
@@ -63,19 +63,20 @@ button:focus {
 }
 
 #timer-label {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
-  padding-top: 2px;
+  padding-top:6px;
+    padding-bottom: 3px;
   background-color: rgb(237, 243, 236);
   border-radius: 10px;
-  height: 40px;
+  height: 30px;
   flex: 2;
   box-shadow: 3px 3px rgb(121, 145, 141) inset;
 }
 
 #timer-ssr {
   flex: 1;
-  margin-left: 30px;
+  margin-left: 20px;
   display: flex;
   justify-content: space-between;
   flex-start: end;
@@ -94,8 +95,8 @@ button:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 140px;
-  height:60px;
+  width: 100px;
+  height:40px;
 }
 
 .break-container, 
